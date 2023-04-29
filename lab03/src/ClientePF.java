@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class ClientePF extends Cliente {
     
-    private String cpf;
+    private final String cpf;
     private Date dataNascimento;
 	private Date dataLicenca;
     private String educacao;
